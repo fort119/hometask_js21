@@ -1,11 +1,13 @@
 class Hamburger {
 
+  size;
+  stuffing;
+  toppings = [];
+
   constructor(size, stuffing) {
     this.size = size;
     this.stuffing = stuffing;
   }
-
-  toppings = [];
 
   static SIZE_SMALL = {
     price: 50,
